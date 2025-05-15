@@ -17,7 +17,7 @@ Trash/waste management website created to help PT. Bank Sampah Sahabat Gajah to 
 - Frontend  : [Blade](https://laravel.com/docs/12.x/blade#main-content), [Alpine js](https://alpinejs.dev/), [Tailwindcss](https://tailwindcss.com/)
 - Backend   : [Laravel](https://laravel.com/), [Laravel Sactum](https://laravel.com/docs/12.x/sanctum#installation)
 - Database  : [Postgresql](https://www.postgresql.org/)
-- Hosting   : [Hostinger VPS](https://www.hostinger.com/id)
+- Hosting   : [Hostinger VPS](https://www.hostinger.com/vps-hosting)
 - CI/CD     : [Github Actions](https://docs.github.com/en/actions)
 
 ## Instalation
