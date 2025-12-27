@@ -13,7 +13,7 @@ use Spatie\Sitemap\Tags\Url;
 
 // SEO
 Route::get('/sitemap.xml', function () {
-ob_clean();
+    ob_clean();
     $sitemap = Sitemap::create()
         ->add(Url::create('/'))
         ->add(Url::create('/tentang-kami'))
@@ -23,7 +23,7 @@ ob_clean();
     return $sitemap->toResponse(request());
 });
 
-// ga perlu login
+// Tidak memerlukan login
 Route::get('/', function () {
     return view('beranda');
 })->name('/');
